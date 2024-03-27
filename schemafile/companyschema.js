@@ -55,6 +55,10 @@ const Schema1=new mongoose.Schema({
     lpa:{
         type:String,
         required:true
+    },
+    read:{
+        type:String,
+        required:true
     }
    
 })
